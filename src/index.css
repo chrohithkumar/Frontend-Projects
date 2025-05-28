@@ -1,13 +1,157 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+*{
+  margin:0;
+  padding: 0;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
+.HeaderContainer{
+  background-color: black; 
+ 
+  width: 100%;
+ }
+ .HeaderContent{
+  display: flex;
+  padding: 10px;
+ }
+ .left-portion{
+  width: 30%;
+ }
+ .middle-portion{
+  width: 30%;
+  margin: 0 30px;
+
+ }
+ .ddddd:hover{
+  cursor: pointer;
+  border-radius: 10px;
+  outline: 3px solid gold;
+ }
+ .serachbtn{
+  background-color: gold;
+
+ }
+ .searchicon{
+  font-size: 30px;
+
+ }
+ .hhh li:hover{
+  background-color: blue !important;
+ }
+ /* .btnall{
+  background-color: gray;
+
+ }
+  */
+
+ .right-portion{
+  width: 40%;
+  display: flex;
+  color: white;
+  cursor: pointer;
+ }
+ 
+ .headeraccounts{
+  width: 30%;
+ }
+ .headeraccounts:hover{
+  outline: 1px solid white;
+  
+ }
+ .headerReturnorders{
+  width: 30%;
+ }
+ .headerReturnorders:hover{
+  outline: 1px solid white;
+ 
+
+ }
+
+ .headerCart{
+  width: 30%;
+ }
+ .headerCart:hover{
+  border: 1px solid white;
+  /* padding: 2px;
+  margin:0 5px; */
+
+ }
+
+ .headerlogo{
+  height: 30px;
+ }
+
+ .carticon{
+  width: 30%;
+  height: 50px;
+ }
+
+
+ .SignInContainer{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+ 
+ .signincontent{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 30px;
+ }
+ 
+ .RegisterContainer{
+  width: 90%;
+  max-width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  
+ }
+ .Center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
+ .Registercontent{
+  display: flex;
+  justify-content: center;
+  
+ }
+
+ .lbl{
+  width: 40%;
+  margin-bottom: 10px;
+ }
+ .RegsiterInput{
+  width: 60%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+ }
+ .RegsiterInput:focus{
+  outline: 3px solid green;
+ }
+
+ .RegisterInput{
+  display: flex;
+ }
+ .Signpageheaderlogo{
+  width: 100px;
+ }
+ .error{
+  display: flex;
+  justify-content: center;
+ }
+
+ .otp-container input{
+  width: 30px !important; 
+  height: 30px;
+  background-color: antiquewhite;
+ }
+ .otp-container{
+  display: flex;
+  justify-content: center;
+ }
