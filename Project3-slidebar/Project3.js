@@ -1,0 +1,9 @@
+navclick=document.querySelector('.navicon')
+leftpart=document.querySelector('.leftpart')
+rightpart=document.querySelector('.rightpart')
+elements=document.querySelector('.elements')
+navclick.addEventListener('click',()=>{
+leftpart.classList.toggle('active')
+rightpart.classList.add('ractive')
+elements.classList.add('eactive')
+})

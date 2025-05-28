@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.leftpart{
+    width: 2%;
+    background-color: bisque;
+    position: relative;
+}
+.elements{
+    display: none;
+}
+.navicon{
+    background-image: url('https://static.thenounproject.com/png/462023-200.png');
+    background-position: center;
+    background-size: contain;
+    /* width: 30px;
+    height: 30px; */
+    background-repeat: no-repeat;
+    height: 20px;
+    cursor: pointer;
+}
+.rightpart{
+    width: 98%;
+    background-color: bisque;
+}
+.content{
+    margin: 30px;
+}
+.active{
+ width: 30%;
+ background-color: aqua;
+}
+.active .navicon{
+    background-image: url('https://png.pngtree.com/png-vector/20190411/ourmid/pngtree-vector-cross-icon-png-image_925896.jpg');
+    background-position: center;
+    background-size: contain;
+
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:5px;
+    right: 5px;
+}
+
+.rightpart .ractive{
+    width: 70%;
+    background-color: bisque;
+}
+
+ .eactive{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    top:30px;
+    left: 50px;
+    cursor: pointer;
+}

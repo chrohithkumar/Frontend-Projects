@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.pillar {
+    position: relative;  
+    display: flex;
+    margin: 10px;
+}
+.pillar img{
+    position: relative;
+    background-size: auto 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100px;
+    border-radius: 30px;
+}
+.pillar h3{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 20px;
+    color: rgb(100, 14, 249);
+    opacity: 0;
+}
+
+ .active img{
+    width: 200px;
+    transition: 0.7s ease-in;
+}
+.active h3{
+    opacity: 1;
+}

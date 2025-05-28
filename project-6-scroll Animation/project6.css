@@ -1,0 +1,30 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    width: 300px;
+    height: 100px;
+    color: white;
+    font-size: 24px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 1px 2px black;
+    transform: translateX(200%);
+    transition: transform 0.4s ease;
+  }
+  
+  .box:nth-of-type(even) {
+    transform: translateX(-200%);
+  }
+  
+  .box.show {
+    transform: translateX(0);
+  }
+  
