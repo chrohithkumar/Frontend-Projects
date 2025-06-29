@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Hello() {
+export default function FModel() {
     const [showModal, setShowModal] = useState(false); // Control modal visibility
     const [modalContent, setModalContent] = useState(''); // Track modal content
 

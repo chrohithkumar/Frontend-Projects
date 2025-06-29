@@ -3,12 +3,17 @@
 // import Login from "./Amazon/FrontPage/SignIn/Login";
 // import Header from "./Amazon/FrontPage/Header";
 
+//import AtoZ from "./KidsApp/AtoZ/AtoZ";
+//import Numbers from "./KidsApp/Numbers/Numbers";
+import BookingDate from "./TirupatiBooking/BookingDate";
+
+//import Additem from "./Adding/Additem";
+
 //import UseCallback from "./usecallback/UseCallBack";
 
 
 function App() {
   return (
-    
     // <Router>
     //   <Routes>
     //     <Route path='/' element={<Header/>}/>
@@ -17,8 +22,18 @@ function App() {
     //   </Routes>
     // </Router>
     <>
+    {/* <AtoZ/>
+    <Numbers/> */}
     {/* <UseCallback/> */}
-    </>
+    {/* <Additem/> */}
+    {/* <Check/> */}
+    {/* <FileUploader/> */}
+    {/* <FModel/> */}
+    {/* <Expensivecalculate/> */}
+    {/* <Countbyuseref/> */}
+
+    <BookingDate/>
+        </>
   );
 }
 
