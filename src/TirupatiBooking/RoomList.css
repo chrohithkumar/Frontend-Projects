@@ -1,0 +1,39 @@
+.RoomListcontainer{
+    width: 100%;
+    
+}
+.tablecontent{
+    width: 90%;
+    margin: 2% 5% 5% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ thead tr th{
+    padding: 20px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+}
+tbody tr td{
+    padding: 10px;
+    text-align: center;
+}
+.RoomListFilter{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    border: 1px solid yellow;
+    background-color: rgb(40, 66, 99);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.SearchbuttonContainer{
+    margin-top: 36px;
+}
+.dropdowninput{
+    display: flex;
+    flex-direction: column;
+}

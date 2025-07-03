@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Booking.css'
 import { Button } from 'react-bootstrap'
 import Swal from 'sweetalert2'
+import { useNavigate } from 'react-router-dom'
 
 export default function BookingDate() {
     const [dates, setDates] = useState()
@@ -11,6 +12,7 @@ export default function BookingDate() {
     const [selectedDates, setSelectedDates] = useState([]);
 
 
+    let navigate = useNavigate()
     const days = ["Mon", "Tue", "Web", "Thu", "Fir", "Sat", "Sun"]
 
     useEffect(() => {
@@ -99,6 +101,12 @@ export default function BookingDate() {
                 text: `${selectedDates[0]} date has been Selected`,
                 icon: 'success',
             })
+            navigate('/RoomBookingForm', {
+                state: {
+                    date: selectedDates[0]
+                }
+            })
+
         }
 
     }

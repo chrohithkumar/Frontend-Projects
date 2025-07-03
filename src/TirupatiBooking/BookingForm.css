@@ -1,0 +1,22 @@
+.BookingFormContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    background-color: chocolate;
+}
+.form-container{   
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(255, 152, 152);
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 14px;
+    font-weight: bold;
+}
