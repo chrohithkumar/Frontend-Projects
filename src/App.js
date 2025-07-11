@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import BookingDate from "./TirupatiBooking/BookingDate";
 import BookingForm from "./TirupatiBooking/BookingForm";
 import RoomList from "./TirupatiBooking/RoomList";
+import BookRooms from "./TirupatiBooking/BookRooms";
 
 //import Additem from "./Adding/Additem";
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/' element={<BookingDate/>}></Route>
         <Route path="/RoomBookingForm" element={<BookingForm/>}></Route>
         <Route path='/RoomsList' element={<RoomList/>}></Route>
+        <Route path='/BookRooms' element={<BookRooms/>}></Route>
       </Routes>
     </Router>
    

@@ -1,0 +1,30 @@
+.BookRoomContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.BookRoomContent{
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+.BoookRoom{
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    gap:10px;
+}
+
+.heading{
+    font-size: 60px;
+}
+input[type="checkbox"] {
+  width: 40px;
+  height: 40px;
+}
+/* .checkbox{
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+} */
