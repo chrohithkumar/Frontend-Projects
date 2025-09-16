@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import {View,Text,TextInput,StyleSheet,Button, Alert} from 'react-native'
 
 
-export default function InputText() {
+export default function InputText({navigation}) {
     const [Name,SetName]=useState('')
     const [MobileNumber,setMobileNumber]=useState('')
 
@@ -19,6 +19,9 @@ export default function InputText() {
       'Success',
       `Form Submitted For ${Name} and Mobile Number ${Name}`
     );
+    setTimeout(()=>{
+          navigation.navigate("HomeScreen")
+    },2000)
   }
 };
 
